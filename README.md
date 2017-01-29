@@ -3,4 +3,4 @@ Una introducción a Vue.js
 
 
 ## Blog post
-COMING SOON tm
+https://datyayu.xyz/introduccion-a-vue-js/

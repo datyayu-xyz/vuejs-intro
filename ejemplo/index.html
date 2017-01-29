@@ -9,6 +9,8 @@
     <div id="app">
         <input type="text" v-model="titulo" />
         <p>{{ titulo }}</p>
+
+        <button v-on:click="hola">Clickeame</button>
     </div>
 
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -17,6 +19,12 @@
             el: '#app',
             data: {
                 titulo: 'Hola mundo'
+            },
+
+            methods: {
+                hola: function() {
+                    alert(this.titulo)
+                },
             }
         })
     </script>
