@@ -1,4 +1,4 @@
-Desde hace ya varios meses, el mundo del frontend se ha visto dominado por React y Angular 2 como las alternativas principales para crear aplicaciones pero últimamente ha aparecido una tercera opción que es cada vez más importante y que para muchos es superior incluso a las ya existentes: [Vue.js](https://vuejs.org/).
+Desde hace ya varios meses, el mundo del frontend se ha visto dominado por React y Angular 2 como las alternativas principales para crear aplicaciones pero últimamente ha aparecido una tercera opción que es cada vez más importante y que para muchos es superior incluso a las ya existentes: [Vue.js](https://vuejs.org/). 
 
 
 ## ¿Qué es?
@@ -7,7 +7,7 @@ Desde hace ya varios meses, el mundo del frontend se ha visto dominado por React
 
 ![](/content/images/2017/01/logo-1.png)
 
-Dicho de una manera más sencilla, Vue es un framework diseñado para construir aplicaciones web pero sin la fatiga de tener que buscar que libreria usar para cada problema, pues Vue ya te da las respuestas desde un inicio.
+Dicho de una manera más sencilla, Vue es un framework diseñado para construir aplicaciones web pero sin la fatiga de tener que buscar que libreria usar para cada problema, pues Vue ya te da las respuestas desde un inicio. 
 
 Si tuviera que comparar Vue con las otras librerías populares de javascript para SPAs, considero que es un punto medio entre React (por su simplicidad, manejo de estado y virtual DOM) y angular (por su two-way data binding y templates).
 
@@ -18,7 +18,7 @@ Lo interesante, sin embargo, es que Vue.js es un framework desarrollado por la c
 
 
 ## Uso
-Ahora que sabemos que es Vue, crearemos un ejemplo sencillo para darnos una idea de como usar el framework.
+Ahora que sabemos que es Vue, crearemos un ejemplo sencillo para darnos una idea de como usar el framework. 
 
 Primero que nada, creamos una pagina simple de HTML y agregamos el script de Vue. Lo más recomendado es instalar Vue usando npm pero para este post usaremos el link al CDN que Vue nos ofrece.
 
@@ -138,7 +138,7 @@ La manera en que declaramos una función para que Vue la reconozca es usando la 
 
 ```js
 new Vue({
-    // ... otras propiedades
+    // ... otras propiedades    
 
     methods: {
         miMetodo: function() {},
@@ -150,7 +150,7 @@ En nuestro caso, queremos mostrar un `alert` con el valor actual del `input` as�
 
 ```js
 new Vue({
-    // ... otras propiedades
+    // ... otras propiedades    
 
     methods: {
         hola: function() {
@@ -162,12 +162,12 @@ new Vue({
 
 La función es bastante sencilla. Lo único a destacar aquí es que accedemos a la variable `titulo` usando `this.titulo`. Esto es debido a que todas las propiedades y métodos que declares, Vue te las facilita usando el objeto `this`. Por lo que si tuvieras otra propiedad, también puedes accederlo usando `this.propiedad`.
 
-Y con esto, ya tenemos nuestro evento funcionando propiamente.
+Y con esto, ya tenemos nuestro evento funcionando propiamente. 
 ![](/content/images/2017/01/tOPu9aSqaa.gif)
 
 ---
 
-Como puedes ver Vue.js es super simple de utilizar y fácil de aprender. Aun así, esta es sólo una pequeña introducción a todo lo que Vue.js nos ofrece. Si quieres saber más, continua leyendo los siguientes posts en la serie para aprender a fondo las diferentes funcionalidades que Vue.js nos ofrece y como puedes incluirlo en tus proyectos.
+Como puedes ver Vue.js es super simple de utilizar y fácil de aprender. Aun así, esta es sólo una pequeña introducción a todo lo que Vue.js nos ofrece. Si quieres saber más, puedes revisar [el siguiente post de la serie](/vuejs-dom/), donde tocamos más a fondo como interactuar con el DOM.
 
 [El repo con el ejemplo en este post está disponible en github](https://github.com/datyayu-xyz/vuejs-intro) para cualquier duda que tengas o mejora que quieras agregar, ¡así que no dudes en hacerlo!
 
